@@ -1,6 +1,6 @@
 class Shoe
-  attr_accessor :color, :size, :material
-  attr_reader :brand, :condition
+  attr_accessor :color, :size
+  attr_reader :brand, :condition, :material
   
   BRANDS = []
 
